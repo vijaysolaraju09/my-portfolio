@@ -1,11 +1,9 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import { name } from "../constants";
-import { motion } from "framer-motion";
-import Background from "./Background";
-import Footer from "./Footer";
+import { about } from "../data/constants";
 
 const Home = () => {
+  const name = about.name;
   const ref = useRef(0);
   const [text, setText] = useState("");
 
@@ -42,10 +40,7 @@ const Home = () => {
             Hi, I'm&nbsp;
             <span className="text-yellow-200 font-extrabold">{text}</span>
           </h1>
-          <p className="mt-3 text-xl">
-            I am passionate about learning and developing scalable, optimized
-            web applications.
-          </p>
+          <p className="mt-3 text-xl">{about.caption}</p>
         </div>
       </div>
     </div>

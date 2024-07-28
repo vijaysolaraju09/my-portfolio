@@ -1,8 +1,7 @@
 import React from "react";
 import "../App.css";
-import { services } from "../constants";
+import { about, services } from "../data/constants";
 import ButtonLink from "./ButtonLink";
-import Footer from "./Footer";
 
 const ServiceCard = ({ service }) => (
   <div className="sm:w-[250px] w-full">
@@ -37,23 +36,14 @@ const About = () => {
               Introduction
             </h2>
             <p className="mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]">
-              👨‍💻 Hi, I'm Vijay Solaraju, a 2021 graduate🎓 with a strong
-              background in front-end development and a growing expertise in
-              full stack development. With 1.8 years of hands-on experience as a
-              Front-End Developer at NeoSoft Technologies, I've honed my skills
-              in React, JavaScript, HTML, CSS, and Bootstrap, transforming
-              design prototypes into fully responsive and efficient web
-              applications.
+              {about.summary.summary1}
             </p>
             <p className="mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]">
-              🚀 My journey into full stack development has equipped me with a
-              solid understanding of the MERN stack. I am passionate about
-              building scalable and optimized web applications, continuously
-              exploring new technologies and techniques to enhance my skill set.
+              {about.summary.summary2}
             </p>
 
             <ButtonLink
-              url="https://drive.google.com/file/d/1QFyHOqexhckBHDxdCARuOEGQWbtbENrL/view?usp=sharing"
+              url={about.resume}
               text="View Resume →"
               padding={`p-3`}
             />

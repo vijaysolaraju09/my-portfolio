@@ -1,6 +1,5 @@
 import React from "react";
 import manacity from "../assets/manacity.png";
-import Footer from "./Footer";
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
   return (
@@ -44,7 +43,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
 const Projects = () => {
   return (
     <div className="bg-black">
-      <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
+      <div className="flex flex-wrap gap-7 justify-center items-center mt-12 p-12">
         {project.map((item, index) => (
           <ProjectCard
             key={index}

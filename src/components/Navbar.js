@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { about } from "../data/constants";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
           <Link to="/about">About</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Vijay Solaraju</a>
+          <a href="/">{about.name}</a>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to="/projects">Projects</Link>

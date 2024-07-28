@@ -6,8 +6,8 @@ import {
   EMAIL_JS_SERVICE_ID,
   EMAIL_JS_TEMPLATE_ID,
   EMAIL_JS_PUBLIC_KEY,
-} from "../constants";
-import Footer from "./Footer";
+} from "../data/constants";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <div className="relative z-0 bg-black w-screen h-screen mt-12">
       <div
-        className="text-white contact overflow-x-hidden pt-12 mt-8 "
+        className="text-white contact overflow-x-hidden py-12 mt-8 "
         id="contact"
       >
         <div className="z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl">
