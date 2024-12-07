@@ -5,7 +5,7 @@ export const about = {
   mail: "vijaysolaraju9848@gmail.com",
   linkedIn: "http://www.linkedin.com/in/vijay-solaraju",
   resume:
-    "https://drive.google.com/file/d/1QFyHOqexhckBHDxdCARuOEGQWbtbENrL/view?usp=sharing",
+    "https://drive.google.com/file/d/1fZCsvjLCyw9zlMLRHydW8_TKJkRDHYDh/view?usp=sharing",
   summary: {
     summary1:
       "👨‍💻 Hi, I'm Vijay Solaraju, a 2021 graduate🎓 with a strong background in front-end development and a growing expertise in full stack development. With 1.8 years of hands-on experience as a Front-End Developer at NeoSoft Technologies, I've honed my skills in React, JavaScript, HTML, CSS, and Bootstrap, transforming design prototypes into fully responsive and efficient web applications.",
