@@ -68,7 +68,16 @@ export const project = [
     image: manacity,
     git: "https://github.com/vijaysolaraju09/manacity-prod",
     websiteUrl: "https://manacity.netlify.app/signin",
-    technologies: ["MongoDb", "ReactJS", "NodeJS"],
+    technologies: ["MongoDb", "ReactJS", "NodeJS","Express"],
+  },
+  {
+    title: "ManaCity",
+    description:
+      "Manacity aims to empower local businesses by providing them with a robust online presence and facilitating smooth e-commerce operations within their locality.",
+    image: manacity,
+    git: "https://github.com/vijaysolaraju09/postaway2.0",
+    websiteUrl: "https://postaway2-0.onrender.com/",
+    technologies: ["MongoDb", "ReactJS", "NodeJS","Express","Redux Toolkit"],
   },
 ];
 
