@@ -1,5 +1,7 @@
 import React from "react";
 import manacity from "../assets/manacity.png";
+import postaway from "../assets/postaway.png";
+
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
   return (
@@ -71,10 +73,10 @@ export const project = [
     technologies: ["MongoDb", "ReactJS", "NodeJS","Express"],
   },
   {
-    title: "ManaCity",
+    title: "Postaway",
     description:
-      "Manacity aims to empower local businesses by providing them with a robust online presence and facilitating smooth e-commerce operations within their locality.",
-    image: manacity,
+      "Postaway is a dynamic social media app enabling seamless interactions with posts, comments, likes, and follows using MERN stack and Redux Toolkit.",
+    image: postaway,
     git: "https://github.com/vijaysolaraju09/postaway2.0",
     websiteUrl: "https://postaway2-0.onrender.com/",
     technologies: ["MongoDb", "ReactJS", "NodeJS","Express","Redux Toolkit"],
